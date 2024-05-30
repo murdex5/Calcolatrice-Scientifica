@@ -61,7 +61,6 @@ float division(float num1 = 1, float num2 = 1, float num3=1, float num4=1, float
         if (nums[i] == 0)
         {
             throw runtime_error("Math error: Attempted to divide by Zero\n");
-            break;
             return 0;
         }
 
