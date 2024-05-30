@@ -47,7 +47,8 @@ float division(float num1 = 1, float num2 = 1, float num3=1, float num4=1, float
 {
     // Create an array of the parameters
     float nums[] = {num1, num2, num3, num4, num5, num6};
-    // Initialize result to 1.0
+    
+    
     float result = nums[0];
     if (result == 0)
     {
