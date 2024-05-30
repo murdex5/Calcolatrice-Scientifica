@@ -48,7 +48,7 @@ float division(float num1 = 1, float num2 = 1, float num3=1, float num4=1, float
     // Create an array of the parameters
     float nums[] = {num1, num2, num3, num4, num5, num6};
     
-    
+
     float result = nums[0];
     if (result == 0)
     {
@@ -76,11 +76,11 @@ float multiplication(float num1 = 1, float num2 = 1, float num3=1, float num4=1,
 {
     // Create an array of the parameters
     float nums[] = {num1, num2, num3, num4, num5, num6};
+
     int len = sizeof(nums)/sizeof(nums[0]);
-    
-    
     float result = 1.0;
 
+    // Loops through the nums array
     for (int i = 0; i < len; i++)
     {
         if (nums[i] == 0.0)
